@@ -249,6 +249,7 @@ section.my-inspirition {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  border: 1px solid red;
 }
 .my-inspirition-title {
   width: 852px;
@@ -285,3 +286,212 @@ section.my-inspirition {
 }
 /* my inspiration section end  */
 
+/* your current target start */
+
+section.your-current-target {
+  width: 1140px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.your-current-target-title {
+  width: 852px;
+  height: 113px;
+  text-align: center;
+}
+.your-current-target-heading {
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.your-current-target-paragraph {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.your-current-target-parent {
+  width: 1140px;
+  height: 299px;
+  margin: 48px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.your-current-target-child-01 {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+
+  background: rgba(255, 76, 30, 0.05);
+}
+.your-current-target-child-01 .content-1 {
+  width: 284px;
+  height: 96px;
+  margin-top: 24px;
+}
+.content-1-header {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 8px 0px;
+}
+.content-1-paragraph {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.your-current-target-child-02 {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+
+  background: rgba(0, 76, 232, 0.05);
+}
+.your-current-target-child-02 .content-2 {
+  width: 284px;
+  height: 96px;
+  margin-top: 24px;
+}
+.content-2-header {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 8px 0px;
+}
+.content-2-paragraph {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.your-current-target-child-03 {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+}
+.your-current-target-child-03 .content-3 {
+  width: 284px;
+  height: 96px;
+  margin-top: 24px;
+}
+.content-3-header {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 8px 0px;
+}
+.content-3-paragraph {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.link {
+  margin-top: 24px;
+}
+.link a {
+  color: black;
+}
+
+/* your current target end */
+
+/* i need support start  */
+section.need-support {
+  width: 1140px;
+  height: 313px;
+  border: 1px solid black;
+  margin: 50px auto;
+  padding: 64px 48px 64px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  background-image: url("../assets/handshake.jpg");
+  background-color: rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.need-support-parent {
+  width: 1044px;
+  height: 185px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.need-support-title {
+  width: 730px;
+  height: 104px;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 0px auto 24px auto;
+}
+
+.need-support-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+  margin-bottom: 16px;
+}
+.need-support-paragraph
+{
+  color: white;
+  padding-top: 10px;
+  opacity: 0.7;
+}
+div.form {
+  width: 684px;
+  height: 57px;
+  /* border: 2px solid black; */
+}
+
+.form input[type="text"] {
+  padding: 24px 20px 19px 20px;
+  width: 548px;
+  height: 57px;
+  margin: 0px 8px 0px 0px;
+  /* box-sizing: border-box; */
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+}
+
+.form input[type="submit"] {
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* i need support section end  */
