@@ -3,6 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/* banner section start */
 section.banner {
   width: 100%;
   height: 662px;
@@ -63,10 +64,13 @@ div.banner-content {
   font-size: 20px;
   font-weight: 600px;
 }
+
+/* banner section end */
+
+/* why web development section start  */
 section.big-section {
   width: 1140px;
   height: 1393px;
-  border: 2px solid black;
   margin: 50px auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -232,3 +236,52 @@ section.child-03 {
   width: 206.4px;
   height: 187.32px;
 }
+
+/* why web development section end  */
+
+/* my inspiration section start  */
+
+section.my-inspirition {
+  width: 1140px;
+  height: 775px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-inspirition-title {
+  width: 852px;
+  height: 113px;
+  text-align: center;
+}
+.my-inspirition-title-heading {
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.my-inspirition-title-paragraph {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.my-inspirition .my-inspirition-iframe {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  margin: 48px 0px;
+  width: 1140px;
+  height: 614px;
+}
+.my-inspirition .my-inspirition-iframe iframe {
+  width: 1076px;
+  height: 550px;
+  border-radius: 16px;
+}
+/* my inspiration section end  */
+
